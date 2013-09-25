@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+@charset "utf-8";
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+#headaddv{
+	width:800px;
+	height:100px;
+	padding:15px 0px;
+	margin:0px auto;
+	background-color: #DADAFF;}
+	
+#wrapper{
+	margin:0px auto;
+	width:800px;
+	height:1000px;
+	background:url(images/Untitled-1.gif);
+	border:#999999;
+}
+
+body {background-image:url(images/images.jpg);}
+
+#menudiv{
+	align:center;
+	height:32px;
+	width:800px;
+	background:#4747FF;
+	text-align:center;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	word-spacing: normal;
+	vertical-align: middle;
+}
+
+#ulList
+{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+}
+li
+{
+float:left;
+}
+a:link,a:visited
+{
+	display:block;
+	width:100px;
+	height:25px;
+	border-left:1px solid #FFFFFF;
+	border-right:1px solid #FFFFFF;
+	font-size:12px;
+	color:#FFFFFF;
+	background-color:#4747FF;
+	text-align:center;
+	padding:4px;
+	text-decoration:none;
+	text-transform:uppercase;
+	
+}
+a:hover,a:active
+{
+background-color:#DADAFF;
+}
+
